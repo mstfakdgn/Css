@@ -1,0 +1,17 @@
+body {
+    font-family: 'Monserrat', sans-serif;
+}
+
+#s1 {
+    background: red;
+}
+
+
+#s1 h1 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+.section-title {
+    color: #2dd5fc;
+}

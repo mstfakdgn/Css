@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+#product-overview {
+    background: url("fall.jpg");
+    padding: 20px;
+    /* border: 5px black solid;
+    margin: 20px; */
+    width: 100%;
+    height: 500px;
+}
+
+.section-title {
+    color: #2ddf5c;
+}
+
+#product-overview h1 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+/* h1 {
+    font-family: sans-serif;
+} */
+
+.main-header {
+    width: 100%;
+    padding: 8px 16px;
+    background-color: aqua;
+}
+
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 75px);
+    vertical-align: middle;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.main-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+.main-header__brand {
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.main-nav__item a{
+    text-decoration: none;
+    color: #0e4f1f;
+    font-weight: bold;
+    padding: 3px 0;
+}
+
+/* .main-nav__item a::after {
+    content: " (Link)";
+    color: red;
+} */
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+    color: white;
+    border-bottom: 5px solid white;
+}   
+
+
+/* p::first-letter {
+    color: red;
+    font-size: 15px;
+} */
+
+.main-nav__item--cta a{
+    color: white;
+    background: red;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+    color: red;
+    background: white;
+    border: none;
+}

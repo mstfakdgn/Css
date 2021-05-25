@@ -1,0 +1,53 @@
+body {
+  font-family: monospace;
+}
+
+#assignment-instructions {
+  color: red;
+  font-family: sans-serif;
+}
+
+code {
+  color: red;
+  font-family: "Roboto Mono", monospace;
+}
+
+.second-code {
+  color: aqua;
+}
+
+li + li {
+  background-color: black;
+  color: white;
+}
+
+ol > li {
+  background-color: black;
+  color: white;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+div {
+  height: 100%;
+}
+
+.box {
+  padding: 5px;
+  margin: 0;
+  border: 5px solid black;
+  border-radius: 5px;
+  height: 100%;
+  width: 40%;
+  display: inline-block;
+
+}
+
+.box:hover {
+  background-color: aqua;
+  color: black;
+  border-color: green;
+}
